@@ -121,7 +121,7 @@ h1{
     </div>
 
     <div class="grid-item">
-        <a href = "BookPage.html">
+        <a href = "BookPage.php">
             <img src="../img/Great_Gatsby.png" width="80px" height="140px"><span>The Great Gatsby</span>
         </a> 
     </div>
@@ -163,7 +163,7 @@ h1{
     </div>
 
     <div class="grid-item">
-        <a href = "BookPage.html">
+        <a href = "BookPage.php">
             <img src="../img/HarryPotter.jpg" width="80px" height="140px"><span>Harry Potter and the Sorcerer's Stone</span>
         </a>  
     </div>
