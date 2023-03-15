@@ -92,13 +92,14 @@ h1{
 
 
 
-<h1>Library.io</h1>
+<h1>BookStash.io</h1>
 </center>
 
 <center>
 <div class="navigation-menu">
     <div id ="navigation">
         <ul>
+	    <li><a href="#">Home</a></li>
             <li><a href="#">Fiction</a></li>
             <li><a href="#">History</a></li>
             <li><a href="#">Non-Fiction</a></li>
