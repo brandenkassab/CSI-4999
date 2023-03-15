@@ -1,98 +1,62 @@
+
 <?php
 
 @include 'config.php';
-?>
+
+    $conn = mysqli_connect("localhost", "root", "", "user_db");
+    if (!$conn) {
+        die("Connection failed: " . mysqli_connect_error());
+    }
+
+	if ($db->connect_errno) {
+			echo '<p>Failed to connect to database: ' . $db->connect_error . '</p>';
+			exit();
+		}
+
+
+
+
+
+
+$s='<table align="center" dir="ltr">';
+
+ $s.='<h3>Current books rented:</h3>'.$row0[0]'"/>
+ $q2="SELECT * FROM VST_CUR where CARD_ID=".$cardId;
+ $result2=mysqli_query($con,$q2)or die(mysqli_error($con));
+ while($row2=mysqli_fetch_array($result2)){
+
+
+<h3>History:</h3>'.$row[1]'"/>
+ $q2="SELECT * FROM VST_HIST where CARD_ID=".$cardId;
+ $result2=mysqli_query($con,$q2)or die(mysqli_error($con));
+ while($row2=mysqli_fetch_array($result2)){
+
+<h3>Current Fines:</h3>'.$row[2].'"/>
+ $q2="SELECT * FROM VST_FEE where CARD_ID=".$cardId;
+ $result2=mysqli_query($con,$q2)or die(mysqli_error($con));
+ while($row2=mysqli_fetch_array($result2)){
+
+
+<h3>Request new ID card</h3>';
+ 
+
+ $s.='</table>';
+
+ ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-
-.grid-container {
-  display: inline-grid;
-  grid-template-columns: auto auto auto;
-  column-gap: 300px;
-  row-gap: 150px;
-}
-
-.grid-item{
-    inline-size: min-content;
-}
-
-body { 
-    margin: 0;
-    background: rgb(151, 151, 151);
-}
-
-.navigation-menu ul {
-  padding: 0px;
-  margin: 0px;
-
-}
-
-ul {
-    padding: 2;
-    padding-color: black;
-    overflow: hidden;
-    background-color: white;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 10px 20px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: gray;
-}
-
-#navigation ul
-{
-	font-size: 1.4em;
-}
-ul {
-  list-style:none;
-}
-ul li{
-  display:inline-block;
-  padding:0 7px;
-  position:relative;
-}
-ul li:not(:last-child)::after{
-  content:"";
-  border:3px solid #e2e2e2;
-  border-width: 2px 2px 0 0;
-  position:absolute;
-  right:-3px;
-  top:0;
-  height:100%;
-}
-
-h1{
-  font-size: 40px;
-}
-
-</style>
-</head>
-<body>
-
-<center><a href="account_page.php"><img src="../img/icon2.png"></a>
-<center><button onclick="window.location.href='login_form.php'">Login In <br></button><center>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Account</title>
 
 
+   <link rel="stylesheet" href="css/style.css">
 
-<h1>Bookstash.io</h1>
-</center>
-
-<center>
-<div class="navigation-menu">
+   <head>
+   <div class="navigation-menu">
     <div id ="navigation">
         <ul>
             <li><a href="#">Home</a></li>
@@ -108,33 +72,12 @@ h1{
 </br>
 </br>
 
-<h1><u>My Account</h1>
+<center><a href="account_page.php"><img src="../img/icon2.png"></a>
+<center><button onclick="window.location.href='login_form.php'">Login In <br></button><center>
+   
+   </head>
 
-<div class="grid-container" align="center">
-
- <div class="grid-item">
-    <h2> Current books rented out </h2>
-    </div>
-
-    <div class="grid-item">
-        <h2> History of books rented out </h2>
-    </div>
-
-    <div class="grid-item">
-        <h2> Current Fines </h2>
-        </a> 
-    </div>
-
-    <div class="grid-item">
-       <h2> Books on hold </h2>
-        </a>  
-    </div>
-
-    <div class="grid-item">
-       <h2> Request new ID card </h2>
-    </div>
-
-</div>
+   <body>
 
 
 <footer style="height:auto; background-color:#000000;">
