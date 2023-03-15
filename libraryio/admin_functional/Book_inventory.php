@@ -8,7 +8,7 @@
     <style>
 		body {
 			font-family: Arial, sans-serif;
-			background-color: #f2f2f2;
+			background-color: #C2CAD0;
 			padding: 20px;
 		}
 		h1 {
@@ -16,7 +16,7 @@
 			margin-bottom: 20px;
 		}
 		form {
-			background-color: #ffffff;
+			background-color: #7E685A;
 			padding: 20px;
 			border-radius: 5px;
 			box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
@@ -24,20 +24,20 @@
 		label {
 			display: block;
 			margin-bottom: 10px;
-			color: #333333;
+			color: #7E685A;
 			font-weight: bold;
 		}
 		input[type="text"],
 		input[type="number"] {
 			padding: 10px;
-			border: 1px solid #cccccc;
+			border: 1px solid #C2B9B0;
 			border-radius: 3px;
 			width: 100%;
 			box-sizing: border-box;
 			margin-bottom: 20px;
 		}
 		input[type="submit"] {
-			background-color: #333333;
+			background-color: #C2B9B0;
 			color: #ffffff;
 			padding: 10px 20px;
 			border-radius: 3px;
@@ -45,20 +45,20 @@
 			cursor: pointer;
 		}
 		input[type="submit"]:hover {
-			background-color: #555555;
+			background-color: #C2B9B0;
 		}
 		p.success {
-			color: #008000;
+			color: #C2B9B0;
 			font-weight: bold;
 		}
 		p.error {
-			color: #ff0000;
+			color: #C2B9B0;
 			font-weight: bold;
 		}
 	
         .btn {
-			background-color:#FF0000 ;
-			color: #ffffff;
+			background-color:#C2B9B0 ;
+			color: #7E685A;
 			padding: 10px 20px;
 			border-radius: 3px;
 			border: none;
@@ -69,30 +69,11 @@
             
 		}
 		.btn:hover {
-			background-color: #555555;
+			background-color: #C2B9B0;
 		}
     
     
     </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -104,7 +85,7 @@
 
 
 	<h1>Add Book</h1>
-	<a href="Remove_book.php" class="btn">Click Here to Go to Remove Book Page</a>
+	<a href="Remove_book.php" class="btn">Click here to Remove Book</a>
     <br>
     <br>
     
