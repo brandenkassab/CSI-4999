@@ -29,7 +29,7 @@ if(!isset($_SESSION['admin_name'])){
    <div class="content">
       <h3>hi, <span>librarian</span></h3>
       <h1>welcome <span><?php echo $_SESSION['admin_name'] ?></span></h1>
-      <p>this is an Admin page select which task needs to Be completed</p>
+      <p>this is an Admin page select which task needs to be completed</p>
       <a href="admin_functional/Book_inventory.php" class="btn">Add/Remove Book</a>
       <a href="admin_functional/Users.php" class="btn">Users</a>
       <br>
