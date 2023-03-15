@@ -76,6 +76,7 @@
             <div class="navigation-menu">
             <div id ="navigation">
                 <ul>
+                    <li><a href="#">Home</a></li>
                     <li><a href="#">Fiction</a></li>
                     <li><a href="#">History</a></li>
                     <li><a href="#">Non-Fiction</a></li>
@@ -106,5 +107,11 @@
                 </div>
                 <script src="../reviews.js"></script>    
    </body>
-
+ <footer style="height:auto; background-color:#000000;">
+  <h3>BookStash.io</h3><br>
+  <h4>| Library Information |</h4>><br>
+  <h5> Email: libraryemail@gmail.com </h5>
+  <h5> Phone number: 111-114-1454</h5>
+</footer>
+</center>
    </html>
