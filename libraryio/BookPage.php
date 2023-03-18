@@ -76,7 +76,7 @@
             <div class="navigation-menu">
             <div id ="navigation">
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="home.php">Home</a></li>
                     <li><a href="#">Fiction</a></li>
                     <li><a href="#">History</a></li>
                     <li><a href="#">Non-Fiction</a></li>
