@@ -61,7 +61,9 @@ CREATE TABLE `book` (
   `SST_ID` int(10) NOT NULL,
   `Genre` varchar(255) NOT NULL,
   `Location` varchar(255) NOT NULL,
-  `image` varchar(255) NOT NULL
+  `image` varchar(255) NOT NULL,
+  `stockId' int(10) NOT NULL,
+  
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
