@@ -120,7 +120,13 @@ CREATE TABLE `genre` (
 
 INSERT INTO `genre` (`BOOK_ISBN`, `BOOK_TITLE`, `BOOK_GENRE`) VALUES
 ('2565', 'To Kill a Mockingbird', 'mystery'),
-('2258', 'The Great Gatsby', 'Thriller');
+('2258', 'The Great Gatsby', 'Thriller'),
+(3169,'Of Mice and Men', 'adventure'),
+(4568,'Fahrenheit 451', 'action'),
+(0128,'Hatchet', 'adventure'),
+(8732,'Moby Dick', 'action'),
+(4920,'Lord of the Flies', 'fiction'),
+(2323,'Pride and Prejudice', 'romance');
 
 -- --------------------------------------------------------
 
