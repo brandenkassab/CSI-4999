@@ -187,32 +187,32 @@
         </center>
         <center>
         <div class="box">
-       <div class="boxed"><h1 id="ab1"> Harry Potter and the Sorcerer's Stone 
-            <a href="https://www.amazon.com/Harry-Potter-Philosophers-Stone-Rowling/dp/1408855658">
+       <div class="boxed"><h1 id="ab1"> Pride and Prejudice
+       <a href="https://www.amazon.com/Pride-Prejudice-Dover-Thrift-Editions/dp/0486284735/ref=sr_1_1_sspa?keywords=pride+and+predjudice+jane+austen&qid=1678148629&s=books&sprefix=pri%2Cstripbooks%2C83&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFIS0lER0IzOEVQVzEmZW5jcnlwdGVkSWQ9QTAzNjc4MThDQUxXUFBIMzdJR00mZW5jcnlwdGVkQWRJZD1BMDkxMjkyOVpLNDVFMDdQQkxJTiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=">
             </center></h1>
             <center>
             
-            <h3><img src="../img/HarryPotter.jpg"width="250" height="350"></h3>
+            <h3><img src="../img/Pride_and_Prejudice.jpg"width="250" height="350"></h3>
  
             </a>  
-            <h5>By: J.K.Rowling</h5>
+            <h5>By: Jane Austen</h5>
             <h5>Click anywhere in this box to purchase the book!</h5>
     
         
             
-            <p>Till now there’s been no magic for Harry Potter. He lives with the miserable Dursleys and their abominable son, Dudley. Harry’s room is a tiny closet at the 
-                foot of the stairs, and he hasn’t had a birthday party in eleven years. But then a mysterious letter arrives by owl messenger: a letter with an invitation to an 
-                incredible place called the Hogwarts School of Witchcraft and Wizardry. And there he finds not only friends, flying sports on broomsticks, and magic in
-                 everything from classes to meals, but a great destiny that’s been waiting for him . . . if Harry can survive the encounter.</p>
+            <p>Set in a small English village during 1812, this classic novel is one of the greatest love stories ever told!  
+                A poor country squire is trying to find husbands for his five daughters.  When one of them, Elizabeth, meets rich Mr. Darcy
+                at a dance, they don't find much in common.  But during the next few months, they overcome their differences and fall in 
+                love.</p>
                  
                 <img src="../img/kid.png" alt="kids face" width="50" height="50" style="position: relative; bottom:1710px; right: 117px;">
                 <img src="../img/book.png" alt="book" width="50" height="50" style="position: relative; bottom:1710px; left: 230px;">
                 <img src="../img/booknum.png" alt="book number pic" width="50" height="50" style="position: relative; bottom:1710px; right: 25px;">
                 <img src="../img/cap.png" alt="cap" width="60" height="50" style="position: relative; bottom:1710px; left: 320px;">
-                </div> <div class="levels"> <h6>Reading age <br>7+ </h6> </div>
-                </div> <div class="level2"> <h6>Book 1 of 7<br> Harry Potter</h6> </div>
-                </div> <div class="level3"> <h6>Print Length<br> 309 Pages</h6> </div>
-                </div> <div class="level4"> <h6>Grade Level</h6><br>4-7 </div>
+                </div> <div class="levels"> <h6>Reading age <br>12-17 </h6> </div>
+                </div> <div class="level2"> <h6>Book 1 of 1<br> </h6> </div>
+                </div> <div class="level3"> <h6>Print Length<br> 384 Pages</h6> </div>
+                </div> <div class="level4"> <h6>Grade Level</h6><br>3-5</div>
                 </div> <div class="finial"><h1></h1></div>
                 <div class="container">
                     <label for="comment" name="comment"> COMMENT BELOW </label>

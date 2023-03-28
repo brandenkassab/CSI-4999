@@ -187,32 +187,31 @@
         </center>
         <center>
         <div class="box">
-       <div class="boxed"><h1 id="ab1"> Harry Potter and the Sorcerer's Stone 
-            <a href="https://www.amazon.com/Harry-Potter-Philosophers-Stone-Rowling/dp/1408855658">
+       <div class="boxed"><h1 id="ab1"> Hatchet
+            <a href="https://www.amazon.com/Hatchet-Gary-Paulsen/dp/1416936475/ref=sr_1_1?crid=3AQE1ZFFLJLC5&keywords=hatchet+book&qid=1678148164&s=books&sprefix=hatc%2Cstripbooks%2C91&sr=1-1">
             </center></h1>
             <center>
             
-            <h3><img src="../img/HarryPotter.jpg"width="250" height="350"></h3>
+            <h3><img src="../img/hatchet.jpg"width="250" height="350"></h3>
  
             </a>  
-            <h5>By: J.K.Rowling</h5>
+            <h5>By: Gary Paulsen</h5>
             <h5>Click anywhere in this box to purchase the book!</h5>
     
         
             
-            <p>Till now there’s been no magic for Harry Potter. He lives with the miserable Dursleys and their abominable son, Dudley. Harry’s room is a tiny closet at the 
-                foot of the stairs, and he hasn’t had a birthday party in eleven years. But then a mysterious letter arrives by owl messenger: a letter with an invitation to an 
-                incredible place called the Hogwarts School of Witchcraft and Wizardry. And there he finds not only friends, flying sports on broomsticks, and magic in
-                 everything from classes to meals, but a great destiny that’s been waiting for him . . . if Harry can survive the encounter.</p>
+            <p>Thirteen-year-old Brian Robeson, haunted by his secret knowledge of his mother’s infidelity, is traveling by single-engine plane to visit
+                his father for the first time since the divorce. When the plane crashes, killing the pilot, the sole survivor is Brian. He is alone 
+                in the Canadian wilderness with nothing but his clothing, a tattered windbreaker, and the hatchet his mother had given him as a present.</p>
                  
                 <img src="../img/kid.png" alt="kids face" width="50" height="50" style="position: relative; bottom:1710px; right: 117px;">
                 <img src="../img/book.png" alt="book" width="50" height="50" style="position: relative; bottom:1710px; left: 230px;">
                 <img src="../img/booknum.png" alt="book number pic" width="50" height="50" style="position: relative; bottom:1710px; right: 25px;">
                 <img src="../img/cap.png" alt="cap" width="60" height="50" style="position: relative; bottom:1710px; left: 320px;">
-                </div> <div class="levels"> <h6>Reading age <br>7+ </h6> </div>
-                </div> <div class="level2"> <h6>Book 1 of 7<br> Harry Potter</h6> </div>
-                </div> <div class="level3"> <h6>Print Length<br> 309 Pages</h6> </div>
-                </div> <div class="level4"> <h6>Grade Level</h6><br>4-7 </div>
+                </div> <div class="levels"> <h6>Reading age <br>9+ </h6> </div>
+                </div> <div class="level2"> <h6>Book 1 of 5<br>Brain's Saga </h6> </div>
+                </div> <div class="level3"> <h6>Print Length<br> 208 Pages</h6> </div>
+                </div> <div class="level4"> <h6>Grade Level</h6><br>7-9</div>
                 </div> <div class="finial"><h1></h1></div>
                 <div class="container">
                     <label for="comment" name="comment"> COMMENT BELOW </label>
@@ -223,4 +222,25 @@
                 <script src="../reviews.js"></script>    
    </body>
      
+   </html>
+
+           <h1 id="ab1"> Hatchet
+            <a href="https://www.amazon.com/Hatchet-Gary-Paulsen/dp/1416936475/ref=sr_1_1?crid=3AQE1ZFFLJLC5&keywords=hatchet+book&qid=1678148164&s=books&sprefix=hatc%2Cstripbooks%2C91&sr=1-1">
+            </center></h1>
+            <center>
+            <img src="../img/hatchet.jpg" width="200" height="300">
+ 
+            </a>  
+            <p> Thirteen-year-old Brian Robeson, haunted by his secret knowledge of his mother’s infidelity, is traveling by single-engine plane to visit
+                his father for the first time since the divorce. When the plane crashes, killing the pilot, the sole survivor is Brian. He is alone 
+                in the Canadian wilderness with nothing but his clothing, a tattered windbreaker, and the hatchet his mother had given him as a present.</p>
+                 <div class="container">
+                    <label for="comment" name="comment"> COMMENT BELOW </label>
+                    <textarea id="comment"></textarea>
+                    <button id="addComments">Add</button>
+                    <div id="allComments"></div>
+                </div>
+                <script src="../reviews.js"></script>    
+   </body>
+
    </html>
