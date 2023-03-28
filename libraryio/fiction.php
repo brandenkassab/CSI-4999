@@ -53,7 +53,7 @@
 
 <body>
 
-<center><a href="home.html"><img src="../img/icon2.png"></a>
+<center><a href="home.html"><img src="../img/icon2.png" width="160px" height="160px"></a>
 <center><button onclick="window.location.href='login_form.php'">Login In <br></button></center>
 <h1>BookStash.io</h1>
 </center>

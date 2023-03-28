@@ -34,7 +34,6 @@
         }
         
         li {
-          
             text-align: center;
         }
         
@@ -160,10 +159,10 @@
             background-color: transparent;
        }
         </style>
-        </head>
-        
+        </head> 
             <header>Library.io
-            <img src="../img/icon.png" alt="Our Logo" width="50" height="50" /> </header>
+            <img src="../img/icon2.png" alt="Our Logo" width="50" height="50" /> 
+            </header>
     
             <body>
             <center>
@@ -171,7 +170,7 @@
             <div id ="navigation">
                 <ul>
                     <li><a href="home.php">Home</a></li>
-                    <li><a href="#">Fiction</a></li>
+                    <li><a href="fiction.php">Fiction</a></li>
                     <li><a href="#">History</a></li>
                     <li><a href="#">Non-Fiction</a></li>
                     <li><a href="#">Young Adults</a></li>
@@ -183,8 +182,8 @@
         </center>
         <center>
         <div class="box">
-       <div class="boxed"><h1 id="ab1"> Harry Potter and the Sorcerer's Stone 
-            <a href="https://www.amazon.com/Harry-Potter-Philosophers-Stone-Rowling/dp/1408855658">
+        <div class="boxed"><h1 id="ab1"> Harry Potter and the Sorcerer's Stone 
+            <a href="https://www.amazon.com/Harry-Potter-Philosophers-Stone-Rowling/dp/1408855658"></a>
             </center></h1>
             <center>
             
@@ -205,25 +204,25 @@
                 <img src="../img/book.png" alt="book" width="50" height="50" style="position: relative; bottom:1710px; left: 230px;">
                 <img src="../img/booknum.png" alt="book number pic" width="50" height="50" style="position: relative; bottom:1710px; right: 25px;">
                 <img src="../img/cap.png" alt="cap" width="60" height="50" style="position: relative; bottom:1710px; left: 320px;">
-                </div> <div class="levels"> <h6>Reading age <br>7+ </h6> </div>
-                </div> <div class="level2"> <h6>Book 1 of 7<br> Harry Potter</h6> </div>
-                </div> <div class="level3"> <h6>Print Length<br> 309 Pages</h6> </div>
-                </div> <div class="level4"> <h6>Grade Level</h6><br>4-7 </div>
-                </div> <div class="finial"><h1></h1></div>
+                <div class="levels"> <h6>Reading age <br>7+ </h6> </div>
+                <div class="level2"> <h6>Book 1 of 7<br> Harry Potter</h6> </div>
+                <div class="level3"> <h6>Print Length<br> 309 Pages</h6> </div>
+                <div class="level4"> <h6>Grade Level</h6><br>4-7 </div>
+                <div class="finial"><h1></h1></div>
                 <div class="container">
                     <label for="comment" name="comment"> COMMENT BELOW </label>
                     <textarea id="comment"></textarea>
                     <button id="addComments">Add</button>
                     <div id="allComments"></div>
                 </div>
-                <script src="../reviews.js"></script>   
+                <script src="../reviews.js"></script> 
                 
-<footer style="background-color:#000000; color:white;">
-  <h3>BookStash.io</h3><br>
-  <h4>| Library Information |</h4>><br>
-  <h5> Email: libraryemail@gmail.com </h5>
-  <h5> Phone number: 111-114-1454</h5>
-</footer>
-
+            
+        <footer style="background-color:#000000; color:white;">
+            <h4>BookStash.io</h4><br>
+            <h4>| Library Information |</h4>><br>
+            <h4> Email: libraryemail@gmail.com </h4>
+            <h4> Phone number: 111-114-1454</h4>
+        </footer>
 </body> 
 </html>

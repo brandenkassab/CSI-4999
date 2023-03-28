@@ -35,6 +35,10 @@
     input[type="submit"]:hover {
       background-color: #C2B9B0;
     }
+
+    body{
+      background-color: #C2CAD0;
+    }
   </style>
 </head>
 <body>
@@ -80,6 +84,9 @@
 
   <h1>Add Book</h1>
 
+  <a href='../admin_page.php' class='btn'>Click here to go to the Admin Homepage</a>
+  <br>
+  <br>
   <a href="Remove_book.php" class="btn">Click here to Remove Book</a>
 
 

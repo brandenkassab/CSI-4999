@@ -17,10 +17,13 @@ if(!isset($_SESSION['admin_name'])){
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>admin page</title>
-
-
    <link rel="stylesheet" href="css/style.css">
 
+   <style>
+      body{
+         background-color: #C2CAD0;
+      }
+   </style>
 </head>
 <body>
    

@@ -72,6 +72,9 @@
 			background-color: #C2B9B0;
 		}
     
+		body{
+			background-color: #C2CAD0;
+		}
     
     </style>
 
@@ -109,6 +112,8 @@ $result = mysqli_query($conn, $sql);
 
 
 echo "<h2>Book Management</h2>";
+echo "<a href='Book_inventory.php' class='btn'>Click here to Remove Book</a><br>";
+echo "<a href='../admin_page.php' class='btn'>Click here to go to the Admin Homepage</a><br>";
 echo "<table border='1'>
 <tr>
 <th>ISBN</th>
