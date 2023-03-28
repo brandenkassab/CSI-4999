@@ -38,7 +38,7 @@
 
 <div class="grid-container" align="center">
     <div class="grid-item">
-        <a href = "BookPage.php">
+        <a href = "BookPageTKAM.php">
             <img src="../img/TKAM.jpg" width="160px" height="280px"><span>To Kill a Mockingbird</span>
         </a> 
     </div>
@@ -50,7 +50,7 @@
     </div>
 
     <div class="grid-item">
-        <a href = "BookPage.php">
+        <a href = "BookPageMice.php">
             <img src="../img/Of_Mice_and_Men.jpg" width="160px" height="280px"><span>Of Mice and Men</span>
         </a> 
     </div>
@@ -62,25 +62,25 @@
     </div>
 
     <div class="grid-item">
-        <a href = "BookPage.php">
+        <a href = "BookPageHat.php">
             <img src="../img/hatchet.jpg" width="160px" height="280px"><span>Hatchet</span>
         </a>  
     </div>
 
     <div class="grid-item">
-        <a href = "BookPage.php">
+        <a href = "BookPageMoby.php">
             <img src="../img/moby_dick.jpg" width="160px" height="280px"><span>Moby Dick</span>
         </a>
     </div>
 
     <div class="grid-item">
-        <a href = "BookPage.php">
+        <a href = "BookPageLord.php">
             <img src="../img/LOTF.png" width="160px" height="280px"><span>Lord of the Flies</span>
         </a>  
     </div>
 
     <div class="grid-item">
-        <a href = "BookPage.php">
+        <a href = "BookPagePride.php">
             <img src="../img/Pride_and_Prejudice.jpg" width="160px" height="280px"><span>Pride and Prejudice</span>
         </a>  
     </div>
