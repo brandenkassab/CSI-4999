@@ -6,14 +6,12 @@
 <html>
     
     <head>
-        <link rel="stylesheet" href="../comment.css">   
+        <link rel="stylesheet" href="css/comment.css">   
         <style>
                 body { margin: 0;
-                   
-                    background: rgb(151, 151, 151);
-                    }
+                    background-color: bisque;
+                }
                 p {
-                    
                     font-size: 20px;
                     text-align: center;
                 }
@@ -70,14 +68,13 @@
         </style>
         </head>
         <center>
-                <img src="../img/icon.png" alt="Our Logo" width="50" height="50" /> 
-        </center>
-            <body>
+        <body>        
+        <img src="../img/icon.png" alt="Our Logo" width="50" height="50" /> 
             <div class="navigation-menu">
             <div id ="navigation">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Fiction</a></li>
+                    <li><a href="home.php">Home</a></li>
+                    <li><a href="fiction.php">Fiction</a></li>
                     <li><a href="#">History</a></li>
                     <li><a href="#">Non-Fiction</a></li>
                     <li><a href="#">Young Adults</a></li>
@@ -86,6 +83,7 @@
                 </ul>
             </div>
         </div>
+    </center>
         <center>
            <h1 id="ab1"> Fahrenheight 451
             <a href="https://www.amazon.com/s?k=farenheight+451&i=stripbooks&crid=1XQAE095JVP31&sprefix=fare%2Cstripbooks%2C88&ref=nb_sb_ss_ts-doa-p_1_4">
@@ -106,12 +104,14 @@
                     <div id="allComments"></div>
                 </div>
                 <script src="../reviews.js"></script>    
-   </body>
- <footer style="height:auto; background-color:#000000;">
+
+                <footer style="height:auto; background-color:#000000; color:FFFFFF;">
   <h3>BookStash.io</h3><br>
-  <h4>| Library Information |</h4>><br>
+  <h4>| Library Information |</h4><br>
   <h5> Email: libraryemail@gmail.com </h5>
   <h5> Phone number: 111-114-1454</h5>
+    </br>
 </footer>
+   </body>
 </center>
    </html>

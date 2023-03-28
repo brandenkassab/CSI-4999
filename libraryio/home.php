@@ -1,11 +1,6 @@
 <?php
-
 @include 'config.php';
 ?>
-
-
-
-
 
 <!DOCTYPE html>
 <html>
@@ -61,7 +56,7 @@
     </div>
 
     <div class="grid-item">
-        <a href = "BookPage.php">
+        <a href = "BookPage451.php">
             <img src="../img/Fahrenheit_451.jpg" width="160px" height="280px"><span>Fahrenheit 451</span>
         </a>  
     </div>
@@ -97,6 +92,14 @@
     </div>
 
 </div>
+
+<footer style="height:auto; background-color:#000000; color:white;">
+  <h3>BookStash.io</h3><br>
+  <h4>| Library Information |</h4><br>
+  <h5> Email: libraryemail@gmail.com </h5>
+  <h5> Phone number: 111-114-1454</h5></br>
+</footer>
 </center>
+
 </body>
 </html>

@@ -147,7 +147,7 @@
  
  body { 
      margin: 0;
-     background: rgb(151, 151, 151);
+     background-color: bisque;
  }
  
  .navigation-menu ul {

@@ -6,20 +6,16 @@
 <html>
     
     <head>
-        <link rel="stylesheet" href="../comment.css">   
+        <link rel="stylesheet" href="css/comment.css">  
         <style>
                 body { margin: 0;
-                   
                     background-color: bisque ;
                     }
                 p {
-                    
                     font-size: 20px;
                     text-align: center;
                     width: 750px;
-                    
-                    position: relative; left:100px; bottom:1850px;
-                    
+                    position: relative; left:100px; bottom:1850px; 
                 }
         .navigation-menu ul {
           padding: 0px;
@@ -174,7 +170,7 @@
             <div class="navigation-menu">
             <div id ="navigation">
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="home.php">Home</a></li>
                     <li><a href="#">Fiction</a></li>
                     <li><a href="#">History</a></li>
                     <li><a href="#">Non-Fiction</a></li>
@@ -220,7 +216,14 @@
                     <button id="addComments">Add</button>
                     <div id="allComments"></div>
                 </div>
-                <script src="../reviews.js"></script>    
-   </body>
-     
-   </html>
+                <script src="../reviews.js"></script>   
+                
+<footer style="background-color:#000000; color:white;">
+  <h3>BookStash.io</h3><br>
+  <h4>| Library Information |</h4>><br>
+  <h5> Email: libraryemail@gmail.com </h5>
+  <h5> Phone number: 111-114-1454</h5>
+</footer>
+
+</body> 
+</html>
