@@ -174,8 +174,8 @@
             <div class="navigation-menu">
             <div id ="navigation">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Fiction</a></li>
+                    <li><a href="home.php">Home</a></li>
+                    <li><a href="fiction.php">Fiction</a></li>
                     <li><a href="#">History</a></li>
                     <li><a href="#">Non-Fiction</a></li>
                     <li><a href="#">Young Adults</a></li>
@@ -222,25 +222,4 @@
                 <script src="../reviews.js"></script>    
    </body>
      
-   </html>
-
-           <h1 id="ab1"> Hatchet
-            <a href="https://www.amazon.com/Hatchet-Gary-Paulsen/dp/1416936475/ref=sr_1_1?crid=3AQE1ZFFLJLC5&keywords=hatchet+book&qid=1678148164&s=books&sprefix=hatc%2Cstripbooks%2C91&sr=1-1">
-            </center></h1>
-            <center>
-            <img src="../img/hatchet.jpg" width="200" height="300">
- 
-            </a>  
-            <p> Thirteen-year-old Brian Robeson, haunted by his secret knowledge of his mother’s infidelity, is traveling by single-engine plane to visit
-                his father for the first time since the divorce. When the plane crashes, killing the pilot, the sole survivor is Brian. He is alone 
-                in the Canadian wilderness with nothing but his clothing, a tattered windbreaker, and the hatchet his mother had given him as a present.</p>
-                 <div class="container">
-                    <label for="comment" name="comment"> COMMENT BELOW </label>
-                    <textarea id="comment"></textarea>
-                    <button id="addComments">Add</button>
-                    <div id="allComments"></div>
-                </div>
-                <script src="../reviews.js"></script>    
-   </body>
-
    </html>
