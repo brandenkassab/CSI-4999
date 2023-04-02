@@ -105,12 +105,12 @@
 
 	<h1>Users Control</h1>
 	<a href="View_users.php" class="btn view-users">View Users</a>
-	<a href="/csi-4999-main/libraryio/register_form.php" class="btn add-remove-users">Add Users</a>
+	<a href="register_form.php" class="btn add-remove-users">Add Users</a>
     <a href="remove_user.php" class="btn fines">Remove User</a>
     <a href="fines.php" class="btn fines">Fines</a>
 
     <br>
     <br>
-    <a href="/csi-4999-main/libraryio/admin_page.php" class="btn">Back To Admin Page</a>
+    <a href="admin_page.php" class="btn">Back To Admin Page</a>
 </body>
 </html>

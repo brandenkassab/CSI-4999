@@ -2,7 +2,8 @@
 
 *{
    font-family: 'Poppins', sans-serif;
-   margin:0; padding:0;
+   margin:0; 
+   padding:0;
    box-sizing: border-box;
    outline: none; border:none;
    text-decoration: none;
@@ -136,9 +137,9 @@
 
 .grid-container {
    display: inline-grid;
-   grid-template-columns: auto auto auto;
-   column-gap: 300px;
-   row-gap: 150px;
+   grid-template-columns: auto auto auto auto;
+   column-gap:275px;
+   row-gap: 75px;
  }
  
  .grid-item{

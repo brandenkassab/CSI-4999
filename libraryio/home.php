@@ -35,59 +35,78 @@
 </br>
 
 <h1>Featured Books</h1>
+</br>
 
 <div class="grid-container" align="center">
     <div class="grid-item">
         <a href = "BookPageTKAM.php">
-            <img src="../img/TKAM.jpg" width="160px" height="280px"><span>To Kill a Mockingbird</span>
+            <img src="../img/TKAM.jpg" width="200px" height="350px"><span>To Kill a Mockingbird</span>
         </a> 
     </div>
 
     <div class="grid-item">
         <a href = "BookPageGreat.php">
-            <img src="../img/Great_Gatsby.png" width="160px" height="280px"><span>The Great Gatsby</span>
+            <img src="../img/Great_Gatsby.png" width="200px" height="350px"><span>The Great Gatsby</span>
         </a> 
     </div>
 
     <div class="grid-item">
         <a href = "BookPageMice.php">
-            <img src="../img/Of_Mice_and_Men.jpg" width="160px" height="280px"><span>Of Mice and Men</span>
+            <img src="../img/Of_Mice_and_Men.jpg" width="200px" height="350px"><span>Of Mice and Men</span>
         </a> 
     </div>
 
     <div class="grid-item">
         <a href = "BookPage451.php">
-            <img src="../img/Fahrenheit_451.jpg" width="160px" height="280px"><span>Fahrenheit 451</span>
+            <img src="../img/Fahrenheit_451.jpg" width="200px" height="350px"><span>Fahrenheit 451</span>
         </a>  
     </div>
 
     <div class="grid-item">
         <a href = "BookPageHat.php">
-            <img src="../img/hatchet.jpg" width="160px" height="280px"><span>Hatchet</span>
+            <img src="../img/hatchet.jpg" width="200px" height="350px"><span>Hatchet</span>
         </a>  
     </div>
 
     <div class="grid-item">
         <a href = "BookPageMoby.php">
-            <img src="../img/moby_dick.jpg" width="160px" height="280px"><span>Moby Dick</span>
+            <img src="../img/moby_dick.jpg" width="200px" height="350px"><span>Moby Dick</span>
         </a>
     </div>
 
     <div class="grid-item">
         <a href = "BookPageLord.php">
-            <img src="../img/LOTF.png" width="160px" height="280px"><span>Lord of the Flies</span>
+            <img src="../img/LOTF.png" width="200px" height="350px"><span>Lord of the Flies</span>
         </a>  
     </div>
 
     <div class="grid-item">
         <a href = "BookPagePride.php">
-            <img src="../img/Pride_and_Prejudice.jpg" width="160px" height="280px"><span>Pride and Prejudice</span>
+            <img src="../img/Pride_and_Prejudice.jpg" width="200px" height="350px"><span>Pride and Prejudice</span>
         </a>  
     </div>
 
     <div class="grid-item">
         <a href = "BookPage.php">
-            <img src="../img/HarryPotter.jpg" width="160px" height="280px"><span>Harry Potter and the Sorcerer's Stone</span>
+            <img src="../img/HarryPotter.jpg" width="200px" height="350px"><span>Harry Potter and the Sorcerer's Stone</span>
+        </a>  
+    </div>
+
+    <div class="grid-item">
+        <a href = "BookPageCatcher.php">
+            <img src="../img/Catcher.png" width="200px" height="350px"><span>Catcher in the Rye</span>
+        </a>  
+    </div>
+
+    <div class="grid-item">
+        <a href = "BookPageFinn.php">
+            <img src="../img/HuckFinn.jpg" width="200px" height="350px"><span>Catcher in the Rye</span>
+        </a>  
+    </div>
+
+    <div class="grid-item">
+        <a href = "BookPageHorton.php">
+            <img src="../img/Horton.png" width="200px" height="350px"><span>Horton Hears a Who</span>
         </a>  
     </div>
 
