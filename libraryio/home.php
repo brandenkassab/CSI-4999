@@ -100,7 +100,7 @@
 
     <div class="grid-item">
         <a href = "BookPageFinn.php">
-            <img src="../img/HuckFinn.jpg" width="200px" height="350px"><span>Catcher in the Rye</span>
+            <img src="../img/HuckFinn.jpg" width="200px" height="350px"><span>The Adventures of Huckleberry Finn</span>
         </a>  
     </div>
 
