@@ -80,7 +80,7 @@ if (!$conn) {
 }
 
 
-$sql = "SELECT BOOK_TITLE, Location, image FROM book WHERE Genre = 'fiction'";
+$sql = "SELECT BOOK_TITLE, Location, image FROM book WHERE Genre = 'Best-Sellers'";
 $result = mysqli_query($conn, $sql);
 
 
