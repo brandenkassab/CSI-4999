@@ -175,14 +175,14 @@
             <div class="navigation-menu">
             <div id ="navigation">
                 <ul>
-                    <li><a href="home.php">Home</a></li>
-                    <li><a href="fiction.php">Fiction</a></li>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Non-Fiction</a></li>
-                    <li><a href="#">Young Adults</a></li>
-                    <li><a href="#">Sports</a></li>
-                    <li><a href="#">Best Sellers</a></li>
-                </ul>
+        <li><a href="home.php">Home</a></li>
+            <li><a href="fiction.php">Fiction</a></li>
+            <li><a href="History.php">History</a></li>
+            <li><a href="Non-Fiction.php">Non-Fiction</a></li>
+            <li><a href="YoungAdults.php">Young Adults</a></li>
+            <li><a href="Sports.php">Sports</a></li>
+            <li><a href="BestSellers.php">Best Sellers</a></li>
+        </ul>
             </div>
         </div>
         </center>
