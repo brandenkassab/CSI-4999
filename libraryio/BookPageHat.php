@@ -88,7 +88,7 @@
             width: 300px;
             padding-top: 10px;
             height: 600px;
-            position: relative; right:500px; bottom:1300px;
+            position: relative; right:450px; bottom:1300px;
           
         }
         header {
