@@ -90,7 +90,7 @@
 
 <body>
 
-<center><a href="home.php"><img src="../img/icon2.png" width="160px" height="160px"></a>
+<center><a href="home.php"><img src="../img/icon2.png" width="50px" height="50px"></a>
 <center><button onclick="window.location.href='login_form.php'">Login In <br></button></center>
 <h1>BookStash.io</h1>
 </center>
