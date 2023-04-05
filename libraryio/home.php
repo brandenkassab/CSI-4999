@@ -112,7 +112,7 @@
 
 </div>
 
-<footer style="height:auto; background-color:#000000; color:white;">
+<footer style="height:auto; background-color:white; color:black;">
   <h3>BookStash.io</h3><br>
   <h4>| Library Information |</h4><br>
   <h5> Email: libraryemail@gmail.com </h5>
