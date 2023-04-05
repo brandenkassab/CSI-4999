@@ -100,7 +100,7 @@
         }
         .box {
             background-color: white;
-            width: 1370px;
+            width: 1300px;
             height: 1300px;
             border-style: solid;
             border-width: 2px;
@@ -109,8 +109,9 @@
             margin-top: 5px;
         }
         h5 {
-            position: relative; right:500px; bottom:1550px;
+            position: relative; right:450px; bottom:1550px;
             color: black;
+            font-size: 10pt;
         }
         .container {
             position: relative; bottom:1900px;
@@ -157,7 +158,7 @@
             border-width: 2px;
             border-color: lightgray;
             position: relative; bottom:2032px; left: 165px;
-            width: 975px;
+            width: 900px;
             height: 150px;
             border-left: 0px;
             border-right: 0px;
