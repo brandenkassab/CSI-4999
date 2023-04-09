@@ -14,11 +14,11 @@
                     }
                 p {
                     
-                    font-size: 20px;
+                    font-size: 24px;
                     text-align: center;
                     width: 750px;
                     
-                    position: relative; left:100px; bottom:1850px;
+                    position: relative; left:120px; bottom:1975px;
                     
                 }
         .navigation-menu ul {
@@ -111,7 +111,7 @@
         h5 {
             position: relative; right:450px; bottom:1550px;
             color: black;
-            font-size: 10pt;
+            font-size: 15pt;
         }
         .container {
             position: relative; bottom:1900px;
@@ -123,7 +123,7 @@
             
         }
        .levels {
-        position: relative; bottom:1883px; right: 200px;
+        position: relative; bottom:2003px; right: 200px;
         width: 500px;
         height: 20px;
         font-size: 20px;
@@ -131,14 +131,14 @@
         
        }
        .level2 {
-        position: relative; bottom:1935px; left: 200px;
+        position: relative; bottom:2053px; left: 200px;
         width: 500px;
         height: 20px;
         font-size: 20px;
         line-height: 5.6em;
        }
        .level3 {
-        position: relative; bottom:1985px; right: 0px;
+        position: relative; bottom:2105px; right: 0px;
         width: 500px;
         height: 20px;
         font-size: 20px;
@@ -146,7 +146,7 @@
        }
        
        .level4 {
-        position: relative; bottom:2000px; left: 400px;
+        position: relative; bottom:2120px; left: 400px;
         width: 500px;
         height: 20px;
         font-size: 20px;
@@ -157,7 +157,7 @@
             border-style: solid;
             border-width: 2px;
             border-color: lightgray;
-            position: relative; bottom:2032px; left: 165px;
+            position: relative; bottom:2142px; left: 165px;
             width: 900px;
             height: 150px;
             border-left: 0px;
@@ -188,7 +188,7 @@
         </center>
         <center>
         <div class="box">
-       <div class="boxed"><h1 id="ab1"> Harry Potter and the Sorcerer's Stone 
+       <div class="boxed"><h1 id="ab1" style="position: absolute; right:580px;"> Harry Potter and the Sorcerer's Stone 
             <a href="https://www.amazon.com/Harry-Potter-Philosophers-Stone-Rowling/dp/1408855658">
             </center></h1>
             <center>
@@ -197,7 +197,7 @@
  
             </a>  
             <h5>By: J.K.Rowling</h5>
-            <h5>Click anywhere in this box to purchase the book!</h5>
+            <h5>Click here to purchase the book!</h5>
     
         
             
@@ -206,10 +206,10 @@
                 incredible place called the Hogwarts School of Witchcraft and Wizardry. And there he finds not only friends, flying sports on broomsticks, and magic in
                  everything from classes to meals, but a great destiny that’s been waiting for him . . . if Harry can survive the encounter.</p>
                  
-                <img src="../img/kid.png" alt="kids face" width="50" height="50" style="position: relative; bottom:1710px; right: 117px;">
-                <img src="../img/book.png" alt="book" width="50" height="50" style="position: relative; bottom:1710px; left: 230px;">
-                <img src="../img/booknum.png" alt="book number pic" width="50" height="50" style="position: relative; bottom:1710px; right: 25px;">
-                <img src="../img/cap.png" alt="cap" width="60" height="50" style="position: relative; bottom:1710px; left: 320px;">
+                <img src="../img/kid.png" alt="kids face" width="50" height="50" style="position: relative; bottom:1840px; right: 117px;">
+                <img src="../img/book.png" alt="book" width="50" height="50" style="position: relative; bottom:1840px; left: 230px;">
+                <img src="../img/booknum.png" alt="book number pic" width="50" height="50" style="position: relative; bottom:1840px; right: 25px;">
+                <img src="../img/cap.png" alt="cap" width="60" height="50" style="position: relative; bottom:1840px; left: 320px;">
                 </div> <div class="levels"> <h6>Reading age <br>7+ </h6> </div>
                 </div> <div class="level2"> <h6>Book 1 of 7<br> Harry Potter</h6> </div>
                 </div> <div class="level3"> <h6>Print Length<br> 309 Pages</h6> </div>
