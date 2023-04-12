@@ -88,20 +88,19 @@
 </head>
 
 <body>
-
-<center><a href="home.php"><img src="../img/icon2.png" width="160px" height="160px"></a>
-<center><button onclick="window.location.href='login_form.php'">Login In <br></button></center>
-<h1>BookStash.io</h1>
+            <center><a href="home.php"><img src="../img/icon2.png" width="160px" height="160px"></a>
+<h1 style="font-size: 50px;">BookStash.io</h1>
 </center>
 
 
-<center> <button style="background-color: white; color: black; font-size: 20px; padding: 15px 30px; border: 2px solid black; border-radius: 10px;" onclick="window.location.href='search.php'">Search</button> </center>
-<br>
+<center> 
+
+
 
 <center>
 <div class="navigation-menu">
     <div id ="navigation">
-    <ul>
+        <ul>
         <li><a href="home.php">Home</a></li>
             <li><a href="fiction.php">Fiction</a></li>
             <li><a href="History.php">History</a></li>
@@ -109,6 +108,8 @@
             <li><a href="YoungAdults.php">Young Adults</a></li>
             <li><a href="Sports.php">Sports</a></li>
             <li><a href="BestSellers.php">Best Sellers</a></li>
+            <li><a href="search.php">Search</a></li>
+            <li><a href="login_form.php">Log In</a></li>
         </ul>
     </div>
 </div>
