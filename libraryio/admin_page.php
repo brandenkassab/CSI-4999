@@ -23,27 +23,29 @@ if(!isset($_SESSION['admin_name'])){
    <style>
       body{
          background-color: #C2CAD0;
+         
       }
+      
    </style>
 
 
 <link rel="stylesheet" href="css/style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<center><a href="home.php"><img src="../img/icon2.png" width="160px" height="160px"></a>
-<center><button onclick="window.location.href='login_form.php'">Login In <br></button></center>
-<h1>BookStash.io</h1>
+<body>
+            <center><a href="home.php"><img src="../img/icon2.png" width="160px" height="160px"></a>
+<h1 style="font-size: 50px;">BookStash.io</h1>
 </center>
 
 
+<center> 
 
-<center> <button style="background-color: white; color: black; font-size: 20px; padding: 15px 30px; border: 2px solid black; border-radius: 10px;" onclick="window.location.href='search.php'">Search</button> </center>
-<br>
+
 
 <center>
 <div class="navigation-menu">
     <div id ="navigation">
-    <ul>
+        <ul>
         <li><a href="home.php">Home</a></li>
             <li><a href="fiction.php">Fiction</a></li>
             <li><a href="History.php">History</a></li>
@@ -51,8 +53,9 @@ if(!isset($_SESSION['admin_name'])){
             <li><a href="YoungAdults.php">Young Adults</a></li>
             <li><a href="Sports.php">Sports</a></li>
             <li><a href="BestSellers.php">Best Sellers</a></li>
+            <li><a href="search.php">Search</a></li>
+            <li><a href="login_form.php">Log In</a></li>
         </ul>
-    </div>
 </div>
 </head>
 <body>
@@ -60,18 +63,18 @@ if(!isset($_SESSION['admin_name'])){
 <div class="container">
 
    <div class="content">
-      <h3>hi, <span>librarian</span></h3>
-      <h1>welcome <span><?php echo $_SESSION['admin_name'] ?></span></h1>
+      <h3 >hi, <span style="background-color: gray; color: white;">librarian</span></h3>
+      <h1>welcome <span style="color: white;"><?php echo $_SESSION['admin_name'] ?></span></h1>
       <p>this is an Admin page select which task needs to be completed</p>
-      <a href="Book_inventory.php" class="btn">Add/Remove Book</a>
-      <a href="Users.php" class="btn">Users</a>
-      <a href="checkout.php" class="btn">Book Checkout / Check-in</a>
+      <a href="Book_inventory.php" class="btn" style="background-color: gray; color: white;">Add/Remove Book</a>
+      <a href="Users.php" class="btn" style="background-color: gray; color: white;">Users</a>
+      <a href="checkout.php" class="btn" style="background-color: gray; color: white;">Book Checkout / Check-in</a>
       <br>
       <br>
      
-      <a href="login_form.php" class="btn">login</a>
-      <a href="register_form.php" class="btn">register</a>
-      <a href="logout.php" class="btn">logout</a>
+      <a href="login_form.php" class="btn" style="background-color: gray; color: white;">login</a>
+      <a href="register_form.php" class="btn" style="background-color: gray; color: white;">register</a>
+      <a href="logout.php" class="btn" style="background-color: gray; color: white;">logout</a>
    </div>
 
 </div>

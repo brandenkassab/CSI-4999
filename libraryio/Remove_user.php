@@ -66,6 +66,8 @@
 			margin-top: 20px;
 			display: inline-block;
 			text-decoration: none;
+      background-color: gray; 
+      color: white;
             
 		}
 		.btn:hover {
@@ -80,17 +82,19 @@
 </head>
 
 <body>
-
-<center><a href="home.php"><img src="../img/icon2.png" width="50px" height="50px"></a>
-<center><button onclick="window.location.href='login_form.php'">Login In <br></button></center>
-<h1>BookStash.io</h1>
+            <center><a href="home.php"><img src="../img/icon2.png" width="160px" height="160px"></a>
+<h1 style="font-size: 50px;">BookStash.io</h1>
 </center>
-<center> <button style="background-color: white; color: black; font-size: 20px; padding: 15px 30px; border: 2px solid black; border-radius: 10px;" onclick="window.location.href='search.php'">Search</button> </center>
-<br>
+
+
+<center> 
+
+
+
 <center>
 <div class="navigation-menu">
     <div id ="navigation">
-	<ul>
+        <ul>
         <li><a href="home.php">Home</a></li>
             <li><a href="fiction.php">Fiction</a></li>
             <li><a href="History.php">History</a></li>
@@ -98,6 +102,8 @@
             <li><a href="YoungAdults.php">Young Adults</a></li>
             <li><a href="Sports.php">Sports</a></li>
             <li><a href="BestSellers.php">Best Sellers</a></li>
+            <li><a href="search.php">Search</a></li>
+            <li><a href="login_form.php">Log In</a></li>
         </ul>
     </div>
 </div>
@@ -216,7 +222,7 @@ a:hover {
 
 </style>
 
-<a href="users.php" class="btn">Back To User Page</a>
+<a href="users.php" class="btn" style="background-color: gray; color: white;">Back To User Page</a>
 <footer style="height:auto; background-color:white; color:black; margin-top: 50px; padding-top: 20px;">
   <h3>BookStash.io</h3><br>
   <h4>| Library Information |</h4><br>

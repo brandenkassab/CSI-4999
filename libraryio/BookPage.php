@@ -8,6 +8,16 @@
     <head>
         <link rel="stylesheet" href="../comment.css">   
         <style>
+                @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+                .head {
+                    font-family: 'Poppins', sans-serif;
+                    margin:0; 
+                    padding:0;
+                    box-sizing: border-box;
+                    outline: none; border:none;
+                    text-decoration: none;
+                }
                 body { margin: 0;
                    
                     background-color: bisque ;
@@ -114,7 +124,7 @@
             font-size: 15pt;
         }
         .container {
-            position: relative; bottom:1900px;
+            position: relative; bottom:2050px;
             width: 1200px;
             border-style: solid;
             border-width: 2px;
@@ -168,14 +178,13 @@
     
     
             <body>
+            <div class="head">
             <center><a href="home.php"><img src="../img/icon2.png" width="160px" height="160px"></a>
-<center><button onclick="window.location.href='login_form.php'">Login In <br></button></center>
-<h1>BookStash.io</h1>
+<h1 style="font-size: 50px;">BookStash.io</h1>
 </center>
 
 
-<center> <button style="background-color: white; color: black; font-size: 20px; padding: 15px 30px; border: 2px solid black; border-radius: 10px;" onclick="window.location.href='search.php'">Search</button> </center>
-<br>
+<center> 
 
 
 
@@ -190,8 +199,11 @@
             <li><a href="YoungAdults.php">Young Adults</a></li>
             <li><a href="Sports.php">Sports</a></li>
             <li><a href="BestSellers.php">Best Sellers</a></li>
+            <li><a href="search.php">Search</a></li>
+            <li><a href="login_form.php">Log In</a></li>
         </ul>
     </div>
+</div>
 </div>
 </br>
 </br>
@@ -228,7 +240,7 @@
                 <div class="container">
                     <label for="comment" name="comment"> COMMENT BELOW </label>
                     <textarea id="comment"></textarea>
-                    <button id="addComments">Add</button>
+                    <button id="addComments" style="background-color: gray; color: white;">Add</button>
                     <div id="allComments"></div>
                 </div>
                 <script src="../reviews.js"></script>   

@@ -8,17 +8,27 @@
     <head>
         <link rel="stylesheet" href="../comment.css">   
         <style>
+                @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+                .head {
+                    font-family: 'Poppins', sans-serif;
+                    margin:0; 
+                    padding:0;
+                    box-sizing: border-box;
+                    outline: none; border:none;
+                    text-decoration: none;
+                }
                 body { margin: 0;
                    
                     background-color: bisque ;
                     }
                 p {
                     
-                    font-size: 20px;
+                    font-size: 24px;
                     text-align: center;
                     width: 750px;
                     
-                    position: relative; left:100px; bottom:1850px;
+                    position: relative; left:120px; bottom:1975px;
                     
                 }
         .navigation-menu ul {
@@ -107,15 +117,14 @@
             border-color: lightgray;
             padding-top: 3px;
             margin-top: 5px;
-        
         }
         h5 {
             position: relative; right:450px; bottom:1550px;
             color: black;
-            font-size: 10pt;
+            font-size: 15pt;
         }
         .container {
-            position: relative; bottom:1900px;
+            position: relative; bottom:2050px;
             width: 1200px;
             border-style: solid;
             border-width: 2px;
@@ -124,7 +133,7 @@
             
         }
        .levels {
-        position: relative; bottom:1883px; right: 200px;
+        position: relative; bottom:2003px; right: 200px;
         width: 500px;
         height: 20px;
         font-size: 20px;
@@ -132,14 +141,14 @@
         
        }
        .level2 {
-        position: relative; bottom:1935px; left: 200px;
+        position: relative; bottom:2053px; left: 200px;
         width: 500px;
         height: 20px;
         font-size: 20px;
         line-height: 5.6em;
        }
        .level3 {
-        position: relative; bottom:1985px; right: 0px;
+        position: relative; bottom:2105px; right: 0px;
         width: 500px;
         height: 20px;
         font-size: 20px;
@@ -147,7 +156,7 @@
        }
        
        .level4 {
-        position: relative; bottom:2000px; left: 400px;
+        position: relative; bottom:2120px; left: 400px;
         width: 500px;
         height: 20px;
         font-size: 20px;
@@ -158,7 +167,7 @@
             border-style: solid;
             border-width: 2px;
             border-color: lightgray;
-            position: relative; bottom:2032px; left: 165px;
+            position: relative; bottom:2142px; left: 165px;
             width: 900px;
             height: 150px;
             border-left: 0px;
@@ -166,16 +175,16 @@
             background-color: transparent;
        }
         </style>
-        </head>
-        
-        <center><a href="home.php"><img src="../img/icon2.png" width="160px" height="160px"></a>
-<center><button onclick="window.location.href='login_form.php'">Login In <br></button></center>
-<h1>BookStash.io</h1>
+    
+    
+            <body>
+            <div class="head">
+            <center><a href="home.php"><img src="../img/icon2.png" width="160px" height="160px"></a>
+<h1 style="font-size: 50px;">BookStash.io</h1>
 </center>
 
 
-<center> <button style="background-color: white; color: black; font-size: 20px; padding: 15px 30px; border: 2px solid black; border-radius: 10px;" onclick="window.location.href='search.php'">Search</button> </center>
-<br>
+<center> 
 
 
 
@@ -190,6 +199,8 @@
             <li><a href="YoungAdults.php">Young Adults</a></li>
             <li><a href="Sports.php">Sports</a></li>
             <li><a href="BestSellers.php">Best Sellers</a></li>
+            <li><a href="search.php">Search</a></li>
+            <li><a href="login_form.php">Log In</a></li>
         </ul>
     </div>
 </div>
@@ -199,7 +210,7 @@
         </center>
         <center>
         <div class="box">
-       <div class="boxed"><h1 id="ab1"> To Kill a Mockingbird 
+       <div class="boxed"><h1 id="ab1" style="position: absolute; right:680px;"> To Kill a Mockingbird 
         <a href="https://www.amazon.com/Kill-Mockingbird-Harper-Lee/dp/0060935464/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1678147665&sr=1-1">
             </center></h1>
             <center>
@@ -208,18 +219,17 @@
  
             </a>  
             <h5>By: Harper Lee</h5>
-            <h5>Click anywhere in this box to purchase the book!</h5>
-    
+            <h5>Click here to purchase the book!</h5>
         
             
-            <p>A gripping, heart-wrenching, and wholly remarkable tale of coming-of-age in a South poisoned by virulent prejudice, it views
+            <p style="margin-bottom: 107px;">A gripping, heart-wrenching, and wholly remarkable tale of coming-of-age in a South poisoned by virulent prejudice, it views
                 a world of great beauty and savage inequities through the eyes of a young girl, as her father—a crusading local lawyer—risks
                 everything to defend a black man unjustly accused of a terrible crime.</p>
                  
-                <img src="../img/kid.png" alt="kids face" width="50" height="50" style="position: relative; bottom:1710px; right: 117px;">
-                <img src="../img/book.png" alt="book" width="50" height="50" style="position: relative; bottom:1710px; left: 230px;">
-                <img src="../img/booknum.png" alt="book number pic" width="50" height="50" style="position: relative; bottom:1710px; right: 25px;">
-                <img src="../img/cap.png" alt="cap" width="60" height="50" style="position: relative; bottom:1710px; left: 320px;">
+                <img src="../img/kid.png" alt="kids face" width="50" height="50" style="position: relative; bottom:1840px; right: 117px;">
+                <img src="../img/book.png" alt="book" width="50" height="50" style="position: relative; bottom:1840px; left: 230px;">
+                <img src="../img/booknum.png" alt="book number pic" width="50" height="50" style="position: relative; bottom:1840px; right: 25px;">
+                <img src="../img/cap.png" alt="cap" width="60" height="50" style="position: relative; bottom:1840px; left: 320px;">
                 </div> <div class="levels"> <h6>Reading age <br>13-16 </h6> </div>
                 </div> <div class="level2"> <h6>Book 1 of 1<br> </h6> </div>
                 </div> <div class="level3"> <h6>Print Length<br> 336 Pages</h6> </div>
@@ -228,7 +238,7 @@
                 <div class="container">
                     <label for="comment" name="comment"> COMMENT BELOW </label>
                     <textarea id="comment"></textarea>
-                    <button id="addComments">Add</button>
+                    <button id="addComments" style="background-color: gray; color: white;">Add</button>
                     <div id="allComments"></div>
                 </div>
                 <script src="../reviews.js"></script>    
