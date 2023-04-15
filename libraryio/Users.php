@@ -54,8 +54,8 @@
 		}
 	
         .btn {
-			background-color:#C2B9B0 ;
-			color: #7E685A;
+			background-color: White ;
+			color: Black;
 			padding: 10px 20px;
 			border-radius: 3px;
 			border: none;
